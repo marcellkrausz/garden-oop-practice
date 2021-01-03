@@ -51,4 +51,5 @@ Virág V102 3
 Bokor B223 4
 Kaktusz K15 2
 Kaktusz K18 1
+
 A szimuláció 5 napig tart, és az alábbi tápanyagokat kapják a növények egységesen: víz, tápoldat, semmi, víz, műtrágya
