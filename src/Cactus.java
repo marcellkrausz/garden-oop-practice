@@ -1,3 +1,5 @@
+import Material.Material;
+
 public class Cactus extends Plant{
 
     private String name;

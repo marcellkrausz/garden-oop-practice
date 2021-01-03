@@ -1,3 +1,5 @@
+package Material;
+
 public class Material {
 
     private String name;

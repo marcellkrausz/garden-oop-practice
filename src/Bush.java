@@ -1,3 +1,5 @@
+import Material.Material;
+
 public class Bush extends Plant {
     private String name;
     private String ID;

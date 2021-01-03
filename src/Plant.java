@@ -1,3 +1,5 @@
+import Material.Material;
+
 public abstract class Plant {
 
     private String name;

@@ -1,3 +1,7 @@
+import Material.Material;
+import Material.Artificials;
+import Material.NutrientSolution;
+import Material.Water;
 import java.util.ArrayList;
 import java.util.List;
 

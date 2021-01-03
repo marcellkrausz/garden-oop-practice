@@ -1,3 +1,5 @@
+package Material;
+
 public class Water extends Material{
 
     public Water(){

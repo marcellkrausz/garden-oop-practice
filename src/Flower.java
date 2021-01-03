@@ -1,3 +1,5 @@
+import Material.Material;
+
 public class Flower extends Plant {
 
     private String name;
