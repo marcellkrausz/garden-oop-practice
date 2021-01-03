@@ -1,0 +1,54 @@
+Main{}
+
+class Garden{
+
+oneDayInTheGarden()
+
+abstract class Material {
+String type;
+}
+
+class Water extends Material{
+String type;
+}
+
+class NutrientSolution extends Material{
+String type;
+}
+
+class Artificials extends Material {
+String type;
+}
+
+abstract class Plant{
+String name;
+String ID;
+int size;
+int maxSize;
+boolean isAlive;
+
+public void oneDayOfPlant(Material material)
+}
+
+class Cactus extends Plant{
+String name;
+String ID;
+int size;
+int maxSize = 4;
+boolean isAlive = true;
+
+public void oneDayOfPlant(Material material){
+	if(material.getType().equals("Water")){
+		size -= 1;
+	}
+}
+
+Kaktusz: Víz esetén a mérete eggyel csökken, tápoldat esetén eggyel nő, műtrágya esetén eggyel nő. A túlburjánzás határa 4.
+Virág: Víz esetén a mérete hárommal nő, tápoldat és műtrágya esetén eggyel csökken. A túlburjánzás határa 6.
+Bokor: Víz és műtrágya esetén a mérete eggyel nő, tápoldat esetén eggyel csökken. A túlburjánzás határa 10.
+
+Virág V102 3
+Bokor B223 4
+Kaktusz K15 2
+Kaktusz K18 1
+A szimuláció 5 napig tart, és az alábbi tápanyagokat kapják a növények egységesen: víz, tápoldat, semmi, víz, műtrágya
